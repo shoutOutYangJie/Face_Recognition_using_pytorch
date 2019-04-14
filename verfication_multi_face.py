@@ -9,7 +9,7 @@ from torchvision import transforms
 from PIL import Image,ImageFont
 
 
-def verfication():
+def verification():
     saved_model = './ArcFace/model/068.pth'
     name_list = os.listdir('./users')
     path_list = [os.path.join('./users',i,'%s.txt'%(i)) for i in name_list]
@@ -97,4 +97,4 @@ def verfication():
         ret, frame = cap.read()
 
 if __name__ =='__main__':
-    verfication()
+    verification()
