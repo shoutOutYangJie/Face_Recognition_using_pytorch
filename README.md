@@ -39,5 +39,6 @@ MTCNN[1] comes from [TropComplique](https://github.com/TropComplique/mtcnn-pytor
 mobileFaceNet[2] derives from [Xiaoccer](https://github.com/Xiaoccer/MobileFaceNet_Pytorch). I followed this project to train the model on CASIA dataset, but only can get 97.3% on the lfw dataset.
 
 ## reference
-[1] Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
-[2] MobileFaceNets: Efficient CNNs for Accurate Real-time Face Verification on Mobile Devices
+\[1\] Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
+
+\[2\] MobileFaceNets: Efficient CNNs for Accurate Real-time Face Verification on Mobile Devices
