@@ -51,10 +51,6 @@ def verification():
     if not cap.isOpened():
         print('failed open camara!!!')
     ret, frame = cap.read()
-    fps = 5
-    # videoWriter = cv2.VideoWriter('test.mp4', cv2.VideoWriter_fourcc(*'XVID'), fps, (640, 480))
-
-    count = 0
 
     while ret :
         frame = frame[:,:,::-1]
@@ -85,10 +81,7 @@ def verification():
 
 
         cv2.imshow('img',show_img[:,:,::-1])
-        # videoWriter.write(show_img)
 
-        cv2.imwrite('./results/'+str(count)+'.jpg',show_img[:,:,::-1].copy())
-        count += 1
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
             # videoWriter.release()
