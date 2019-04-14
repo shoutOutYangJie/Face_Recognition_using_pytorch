@@ -1,7 +1,7 @@
 # Face_Recognition_using_pytorch
 Using MTCNN and MobileFaceNet on Face Recognition
 
-This repo is easy to use and convenient to adapt to your own project. You just need to one GPU supporting CUDA and do some simple installations, and then you can easily run it successfully.
+This repo is easy to use and convenient to adapt to your own project. You just need one GPU supporting CUDA and do some simple installations, and then you can easily run it successfully.
 
 ![image](https://github.com/shoutOutYangJie/Face_Recognition_using_pytorch/blob/master/results/results.gif)
 
@@ -27,6 +27,7 @@ firstly for getting your name, run
 > python get_save_features.py --name {$YOUR_NAME$}
 
 notes that when cvWindow arises, please left click it to make it being current window, and press 'c' to crop your face, and press 'q' to quit program.
+
 And then you will find your feature vector under the "users/{$YOUR_NAME$}" dir.
 
 secondly, run 
