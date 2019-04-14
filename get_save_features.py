@@ -7,6 +7,8 @@ import cv2
 from torchvision import transforms
 import os
 from utils import get_feature
+import argparse
+
 
 def save_person_information(name):
     saved_model = './ArcFace/model/068.pth'
@@ -52,5 +54,10 @@ def save_person_information(name):
         ret, frame = cap.read()
 
 if __name__=='__main__':
-
-    save_person_information('赵敏')
+    parse = argparse.ArgumentParser(description="get current user's face image")
+    parse.add_argument('-n','--name',default=None,help='input current user\'s name')
+    arg = parse.parse_args()
+    name = arg.name
+    if name == None:
+        raise ValueError('please input your name using \'python get_save_features.py --name your_name\'')
+    save_person_information(name)
