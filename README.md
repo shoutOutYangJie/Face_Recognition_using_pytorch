@@ -22,7 +22,8 @@ notes that make sure your computer has one camera, because code uses cv2.videoCa
 ## how to use
 
 
-please going to root dir
+please going to root dir.
+
 firstly for getting your name, run
 > python get_save_features.py --name {$YOUR_NAME$}
 
