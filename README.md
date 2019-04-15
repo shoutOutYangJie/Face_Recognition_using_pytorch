@@ -1,7 +1,7 @@
 # Face_Recognition_using_pytorch
 Using MTCNN and MobileFaceNet on Face Recognition
 
-This repo is easy to use and convenient to adapt to your own project. You just need one GPU supporting CUDA and do some simple installations, and then you can easily run it successfully.
+This repo is easy to use and convenient to adapt to your own project. You just need one GPU supporting CUDA and do some simple installations, and then you can easily run it successfully. MTCNN pretrained and mobileFaceNet pretrained model have been available in this project. As detection of face, MTCNN can be replaced with any faster method. General performance is real-time.
 
 ![image](https://github.com/shoutOutYangJie/Face_Recognition_using_pytorch/blob/master/results/results.gif)
 
